@@ -59,12 +59,47 @@ rowspan="value"     (must used for td/th)
 action = where the information is sent
 method = what kind of HTTP request
 
-<input type="text" name="username" value="Davie" id="">
+<input type="text" name="username" value="Davie" id="" step="1" min="0" max="5">
 type = what kind of data you want text/num
 name = could be username or password
 value = value shown on the form bar
+step = can increase/decrease the the input value by the step value
+min = where you want it to start
+max = where you want it to stop
 
 <label for=""></label>
 Will show up in front of the input bar. **Needs to be same value as input id
 ** Labels should go on top of the input
+
+<select> Used for a dropdown list
+<option value="pizza">Pizza</option>
+
+<datalist>
+Same as select, but you can now filter. Used for really big dropdowns
+** replaces select
+
+<textarea></textarea>
+used for making a bigger text field
+** additional comments
+
+<input type="submit">
+Used to make a button
+
+<!-- Forn Validation -->
+
+**Used for input only
+
+required
+can't be left blank
+
+min=""
+max=""
+
+minlength=""
+maxlength=""
+
+pattern="[a-zA-Z0-9]+"
+
+
+
 

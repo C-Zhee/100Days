@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <title>Jokes</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to the page!</h1>
+            <nav>
+                <a href="#coffee">Coffee</a>
+                <a href="#pictures">Pictures</a>
+                <a href="#brands">Brands</a>
+            </nav>
+        </header>
+
+        <div id="coffee">
+          <p>Wow, I love coffee</p>    
+        </div>
+
+        <form action="/submit-cat-photo" method="POST">
+            <label for="button">Press</label>
+            <input id="button" type="submit" required>
+        </form>
+
+        <form action="/submit-cat-photo" method="POST">
+            <label for="hey">Hey</label>
+            <input id="hey" type="radio" name="option">
+            <label for="no">No</label>
+            <input id="no" type="radio" name="option">
+        </form>
+
+        <form>
+            <label>
+                Hey
+                <input id="hey" type="radio" name="option">
+            </label>
+            <label>
+                No
+                <input id="no" type="radio" name="option">
+            </label>
+        </form>
+
+        <div id="pictures">
+          <img src="https://t4.ftcdn.net/jpg/01/16/61/93/360_F_116619399_YA611bKNOW35ffK0OiyuaOcjAgXgKBui.jpg" alt="latte art"> 
+          <img src="https://img.freepik.com/free-vector/coffee-love-foam-with-beans-cartoon-icon-illustration_138676-2575.jpg?size=338&ext=jpg&ga=GA1.1.1412446893.1705190400&semt=sph" alt="cartoon latte">
+        </div>
+
+        <div id="brands">
+          <img src="data:image/png;base64,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" alt="tim horton's" height="240px" >
+          <img src="https://assets.simon.com/tenantlogos/1678.png" alt="dunkin donuts">
+        </div>
+        
+        <footer>
+            <p>Thank you for checking out my page</p>
+        </footer>
+
+    </body>
+</html>
+
+

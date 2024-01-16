@@ -11,10 +11,8 @@
 
     <h1>Welcome to LemonCafe!</h1>
 
-    <div id="coffee">
+    
         <p>Here at LemonCafe, we have a variety of coffees! Take a look at the selection below!</p>
-
-    </div>
 
     <h1>Our opening times</h1>
     
@@ -33,28 +31,49 @@
                 
                 
                 <tr bgcolor="yellow">
-                    <td colspan="2">Open</td>
-                    <td colspan="2">Open</td>
-                    <td colspan="2">Closed</td>
-                    <td colspan="2">Closed</td>
-                    <td colspan="2">Opem</td>
-                    <td colspan="2">Open</td>
+                    <td colspan="2">6:00 - 6:00</td>
+                    <td colspan="2">6:00 - 6:00</td>
+                    <td colspan="2">6:00 - 6:00</td>
+                    <td colspan="2">6:00 - 6:00</td>
+                    <td colspan="2">6:00 - 4:00</td>
+                    <td colspan="2">6:00 - 4:00</td>
                     <td colspan="2">Closed</td>
                 </tr>
             </table>
         </thead>
     </div>
 
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 
-    <div id="order-form">
-        <form>
-            <value for="username">Username</value>
-            <input id="username" name="username" value="">
+  <form>
+    <section>
+        <label for="coffee-type">Coffee</label>
+        <input type="text" name="coffee-type" id="coffee-type">
+    </section>
+    
+    <section class="iceOptions">
+        <input type="radio" name="iceOption" id="iceOptionIce">
+        <label for="iceOptionIce">Ice</label>
+    
+        <input type="radio" name="iceOption" id="iceOptionNoIce">
+        <label for="iceOptionNoIce">No Ice</label>
+    
+        <input type="radio" name="iceOption" id="iceOptionLessIce">
+        <label for="iceOptionLessIce">Less Ice</label>
+    </section>
 
-            <value for="passowrd">Password</value>
-            <input id="password" name="password" type="password">
-        </form>
-    </div>
+    <section name="iceOptions">
+        <select>
+            <option>Ice</option>
+            <option>No Ice</option>
+            <option>Less Ice</option>
+        </select>
+    </section>
+  </form>
+
 </body>
 
 </html>
